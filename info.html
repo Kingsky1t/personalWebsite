@@ -1,0 +1,38 @@
+<html>
+<body>
+
+<form action="result.html" method="POST">
+	<div>
+		<p>Are you a robot?</p>
+		<input type="radio" checked="checked" name="yesorno" value="yes">YES
+		<input type="radio"  name="yesorno" value="no">NO
+	</div>
+	
+	<fieldset>
+		<legend>ABOUT YOU</legend>
+		
+		<p>Tell me your name</p>
+		<input type="text">
+
+		<p>Tell me your age</p>
+		<input type="number">
+
+		<p>Tell me when you were born</p>
+		<input type="date">
+		
+		<p>name the subjects you are interested in</p>
+		<select name="subjects" sixe="1" multiple>
+			<option value="bio">BIOLOGY</option>
+			<option value="math">MATHEMATICS</option>
+			<option value="chem">CHEMISTRY</option>
+			<option value="phy">PHYSICS</option>
+			<option value="eng">ENGLISH</option>
+		</select>
+	</fieldset>
+
+	<p>if you want to upload any pictures of yourself</p>
+	<input type="file" name="fileupload">
+	<input type="submit" value="upload">
+</form>
+</body>
+</html>
